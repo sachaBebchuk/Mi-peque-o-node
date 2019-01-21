@@ -1,26 +1,28 @@
 {
-  "name": "modelo-webapp",
+  "name": "prueba",
   "version": "1.0.0",
-  "description": "modelo para las aplicaciones web que vaya a hacer en node",
+  "description": "aplicativo base para hacer webapps",
   "main": "main.js",
   "dependencies": {
-    "compression": "^1.7.1",
-    "express": "~4.16.0",
-    "serve-favicon": "~2.4.5",
-    "helmet": "^3.8.2",
-    "cookie-parser": "~1.4.3",
     "body-parser": "~1.18.2",
-    "express-validator":"^4.2.1",
-    "pug":"^2.0.0-rc.4",
-    "sequelize":"~4.11.3",
-    "mysql2":"~1.4.2",
-    "express-session":"~1.15.6"
+    "compression": "^1.7.1",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.16.0",
+    "express-session": "~1.15.6",
+    "express-validator": "^4.2.1",
+    "helmet": "^3.8.2",
+    "mysql2": "~1.4.2",
+    "pbkdf2": "^3.0.17",
+    "pug": "^2.0.0-rc.4",
+    "sequelize": "~4.11.3",
+    "serve-favicon": "~2.4.5"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main"
   },
   "author": "Sacha",
   "license": "ISC"
